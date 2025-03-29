@@ -105,14 +105,16 @@ margin-bottom: 48px;
 }
 .detail-active{
   list-style: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width:1024px) {
   .details-paragraph{
      max-width: 610px;
- margin-bottom: 40px;
-   height: 44px;
-   font-size: 16px;
-   margin-bottom: 40px;
+     margin-bottom: 40px;
+     height: 44px;
+     font-size: 16px;
+     margin-bottom: 40px;
    }
  }
  @media screen and (min-width:1024px) {
@@ -124,7 +126,8 @@ margin-bottom: 48px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin-left: 47px;
+    margin-left: 32px;
+    margin-right: 32px;
     margin-bottom: 85px;
   }
 }
@@ -133,7 +136,7 @@ margin-bottom: 48px;
     width: 236px;
 height: 48px;
 margin-left: auto;
-margin-right: 32px;
+margin-right: auto;
 background: rgba(0, 0, 0, 0.4);
 border: 2px solid #FFFFFF;
 border-radius: 25px;
