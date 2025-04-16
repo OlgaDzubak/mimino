@@ -144,7 +144,7 @@
 @media screen and (max-width: 1023.9px) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                      url('/src/images/img/hotel-page/main-images/mobile/hotel_hero_mob@1x.jpg');
+                      url('/src/images/img/hotel-page/main-images/mobile/hotel_hero_mob@1x.avif');
   }
   .hero-list-btn {
     flex-direction: column;
@@ -162,7 +162,7 @@
 (min-resolution: 2dppx) and (max-width: 1023.9px) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url('/src/images/img/hotel-page/main-images/mobile/hotel_hero_mob@2x.jpg');
+      url('/src/images/img/hotel-page/main-images/mobile/hotel_hero_mob@2x.avif');
   }
 }
 
@@ -171,7 +171,7 @@
     padding-top: 188px;
     padding-bottom: 15px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                      url('/src/images/img/hotel-page/main-images/tablet/hotel_hero_tab@1x.jpg');
+                      url('/src/images/img/hotel-page/main-images/tablet/hotel_hero_tab@1x.avif');
   }
   .hero-title {
     margin-bottom: 32px;
@@ -206,7 +206,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 1024px) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                      url('/src/images/img/hotel-page/main-images/tablet/hotel_hero_tab@2x.jpg');
+                      url('/src/images/img/hotel-page/main-images/tablet/hotel_hero_tab@2x.avif');
   }
 }
 
@@ -215,7 +215,7 @@
       padding-top: 164px;
       padding-bottom: 64px;
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                        url('/src/images/img/hotel-page/main-images/desktop/hotel_hero_desk@1x.jpg');
+                        url('/src/images/img/hotel-page/main-images/desktop/hotel_hero_desk@1x.avif');
     }
   .hero-description-hotel {
     margin-bottom: 242px;
@@ -233,7 +233,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                      url('/src/images/img/hotel-page/main-images/desktop/hotel_hero_desk@2x.jpg');
+                      url('/src/images/img/hotel-page/main-images/desktop/hotel_hero_desk@2x.avif');
   }
 }
 
