@@ -227,6 +227,11 @@
             transform: translateX(-5px);
         }
     }
+    @media screen and (max-width:414px) {
+        .swiper-slide img {
+            height: 100%;
+        }
+    }
     @media screen and (min-width:1024px) {
         .room-title {
             font-size: 36px;
