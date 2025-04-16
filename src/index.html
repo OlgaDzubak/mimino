@@ -1,45 +1,60 @@
 <!DOCTYPE html>
-<html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href=".\images\favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href=".\images\favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href=".\images\favicon/favicon-16x16.png">
-    <link rel="manifest" href=".\images\favicon/site.webmanifest">
-    <link rel="mask-icon" href=".\images\favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href=".\images\favicon/favicon.ico">
+<html lang="uk">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="visit a high-class hotel and restaurant">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content=".\images\favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="./images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico">
+
     <title>Міміно</title>
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script type="module" src="./index.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./sass/index.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <!-- <link rel="preload" fetchpriority="high" as="image" href="images/img/home-page/main-images/mobile/main_hero_mob@2x.jpg" type="image/jpg"> -->
+
+    <script type="module" src="./index.js" defer></script>
+
   </head>
+  
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <!-- <include src="./partials/book_room_modal_window.html"></include>
-    <include src="./partials/book_table_modal_window.html"></include>
-    <include src="./partials/room_price_modal_window.html"></include> -->
+
     <include src="./partials/header.html"></include>
+
     <include src="./partials/homepage/hero.html"></include>
+    
     <include src="./partials/homepage/about-restaurant.html"></include>
     <include src="./partials/homepage/details-restaurant.html"></include>
     <include src="./partials/homepage/about-hotel.html"></include>
     <include src="./partials/homepage/details-hotel.html"></include>
     <include src="./partials/homepage/contacts.html"></include>
+
     <include src="./partials/footer.html"></include>
-    <include src="./partials/book_room_modal_window.html"></include>
-    <include src="./partials/book_table_modal_window.html"></include>
-    <include src="./partials/room_price_modal_window.html"></include>
+
+
+    <include src="./partials/modal-windows/book_room_modal_window.html"></include>
+    <include src="./partials/modal-windows/book_table_modal_window.html"></include>
+
+    <include src="./partials/modal-windows/room_price_modal_window.html"></include>
+
+    <div class="overlay js-overlay-modal"></div>
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
      
   </body>
+  
 </html>

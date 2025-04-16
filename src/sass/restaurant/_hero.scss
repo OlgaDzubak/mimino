@@ -1,4 +1,4 @@
-/* --------------------HERO----------------------- */
+
 @keyframes focus-in-expand-fwd {
   0% {
     letter-spacing: -0.5em;
@@ -41,23 +41,9 @@
   background-repeat: no-repeat;
   font-family: 'Montserrat';
 }
-
 .hero .container {
   position: relative;
 }
-@media screen and (min-width: 1024px) {
-  .hero {
-    padding-top: 188px;
-    padding-bottom: 15px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .hero {
-    padding-top: 164px;
-    padding-bottom: 64px;
-  }
-}
-
 .hero-title {
   animation: focus-in-expand-fwd 800ms ease-out;
   text-align: center;
@@ -70,18 +56,6 @@
   letter-spacing: 0.3em;
   color: var(--logo-theme-dark);
 }
-@media screen and (min-width: 1024px) {
-  .hero-title {
-    margin-bottom: 16px;
-    font-size: 128px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .hero-title {
-    margin-bottom: 32px;
-  }
-}
-
 .hero-description {
   animation: focus-in-expand-fwd 800ms ease-out;
   margin-bottom: 40px;
@@ -92,21 +66,8 @@
   text-align: center;
   color: var(--logo-theme-dark);
 }
-
-@media screen and (min-width: 1024px) {
-  .hero-description {
-    margin-bottom: 56px;
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .hero-description {
-    margin-bottom: 64px;
-  }
-}
-
 .hero-text {
-  animation: textFromBotton 800ms linear 900ms  both;
+  animation: textFromBotton 800ms linear 900ms both;
   transform: translateY(100px);
   margin-bottom: 113px;
   font-family: 'Times New Roman';
@@ -116,12 +77,6 @@
   line-height: 1.14;
   letter-spacing: 0.05em;
   color: var(--logo-theme-dark);
-}
-@media screen and (min-width: 1024px) {
-  .hero-text {
-    margin-bottom: 137px;
-    font-size: 36px;
-  }
 }
 
 .hero-adress-link {
@@ -152,15 +107,6 @@
 .hero-adress-link:focus .icon-adress {
   fill: var(--accent-text-color);
 }
-@media screen and (min-width: 1024px) {
-  .hero-adress-link {
-    position: static;
-    font-size: 16px;
-    padding: 8px 11px;
-    gap: 10px;
-  }
-}
-
 .icon-adress {
   transition: var(--transition-slow);
   fill: var(--accent-color);
@@ -169,7 +115,6 @@
 .hero-list-btn {
   display: flex;
 }
-
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -187,7 +132,6 @@
   transition: background-color var(--transition-slow),
     border var(--transition-slow);
 }
-
 .button:hover,
 .button:focus {
   background-color: var(--logo-theme-dark);
@@ -198,25 +142,64 @@
   display: flex;
   gap: 20px;
 }
-
 .hero-social-link {
   fill: var(--accent-color);
   transition: fill var(--transition-slow);
 }
-
 .hero-social-link:hover,
 .hero-social-link:focus {
   fill: var(--accent-text-color);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 385px) {
+  .hero-title {
+    margin-left: calc(80 * 0.3);
+    font-size: 80px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (max-width: 1023.9px),
+  (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023.9px),
+  (min-resolution: 192dpi) and (max-width: 1023.9px),
+  (min-resolution: 2dppx) and (max-width: 1023.9px) {
   .hero {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65),
         rgba(0, 0, 0, 0.65)
       ),
-      url(/src/images/mobile/restoraunt/rest_page_hero_mob@1x.png);
+      url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@1x.jpg");
+  }
+
+  .hero-title {
+    margin-bottom: 16px;
+    font-size: 128px;
+  }
+
+  .hero-description {
+    margin-bottom: 56px;
+    font-size: 20px;
+  }
+
+  .hero-text {
+    margin-bottom: 137px;
+    font-size: 36px;
+  }
+
+  .hero-adress-link {
+    position: static;
+    font-size: 16px;
+    padding: 8px 11px;
+    gap: 10px;
   }
 
   .hero-list-btn {
@@ -228,35 +211,6 @@
 
   .hero-adress-text {
     font-size: 12px;
-  }
-}
-
-@media (min-device-pixel-ratio: 2) and (max-width: 1023px),
-  (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px),
-  (min-resolution: 192dpi) and (max-width: 1023px),
-  (min-resolution: 2dppx) and (max-width: 1023px) {
-  .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
-      ),
-      url(/src/images/mobile/restoraunt/rest_page_hero_mob@2x.png);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
-      ),
-      url(/src/images/tab/restoran-page/rest_page_hero@1x.png);
-  }
-
-  .hero-adress-text {
-    font-size: 16px;
   }
 
   .hero-adress-btn-wrapper {
@@ -271,7 +225,6 @@
     gap: 40px;
   }
 }
-
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
   screen and (min-resolution: 192dpi) and (min-width: 1024px),
@@ -282,45 +235,41 @@
         rgba(0, 0, 0, 0.65),
         rgba(0, 0, 0, 0.65)
       ),
-      url(/src/images/tab/restoran-page/rest_page_hero@2x.png);
+      url("/src/images/img/restaurant-page/main-images/tablet/rest_page_hero_tab@2x.jpg");
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
-      ),
-      url(/src/images/desktop/restaurant-page/rest_page_hero_desk@1x.jpg);
+    padding-top: 164px;
+    padding-bottom: 64px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("/src/images/img/restaurant-page/main-images/desktop/rest_page_hero_desk@1x.jpg");
+  }
+  .hero-title {
+    margin-bottom: 32px;
+  }
+  .hero-description {
+    margin-bottom: 64px;
   }
   .hero-adress-btn-wrapper {
     margin-bottom: 0px;
   }
-
   .hero-social-list {
     display: none;
   }
 }
+@media  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+        screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
+        screen and (min-resolution: 192dpi) and (min-width: 1280px),
+        screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
-  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
-  screen and (min-resolution: 192dpi) and (min-width: 1280px),
-  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
-  .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
-      ),
-      url(/src/images/desktop/restaurant-page/rest_page_hero_desk@2x.jpg);
-  }
-}
-
-@media screen and (max-width: 385px) {
-  .hero-title {
-    margin-left: calc(80 * 0.3);
-    font-size: 80px;
-  }
+        .hero {
+          background-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.65),
+              rgba(0, 0, 0, 0.65)
+            ),
+            url("/src/images/img/restaurant-page/main-images/desktop/rest_page_hero_desk@2x.jpg");
+        }
 }

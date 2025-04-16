@@ -1,323 +1,169 @@
 .section-about-restaurant{
-    background: #FFFDEE;
-    padding-bottom: 20px;
-    }
-    @media screen and (min-width: 1024px) {
-        .section-about-restaurant{
-            padding-bottom: 32px;
-            } 
-    }
-    @media screen and (min-width: 1280px) {
-        .section-about-restaurant{
-            padding-bottom: 50px;
-            } 
-            }
-
-
-    .text-restaurant{
     padding-top: 16px;
-    font-family: 'Times New Roman';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #B4B4B4;
-    margin-bottom: 12px;    
-    }
-    
-    @media screen and (min-width: 1024px) {
-    .text-restaurant{
-        font-family: 'Times New Roman';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 37px;    
-    }    
-    }
-    @media screen and (min-width: 1280px) {
-        .text-restaurant{
-            font-family: 'Times New Roman';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 37px;    
-        }    
-        }
-    .about-restaurant{
-        padding: 0;
-    }
-    @media screen and (min-width: 1024px){
-    .about-restaurant{
-        margin: 0;
-        display: flex;
-        justify-content: space-between; 
-    }    
-    }
-
-@media screen and (min-width: 1024px){
-.text{
-margin-top: 120px;   
-}    
+    padding-bottom: 20px;
 }
-    
-    .title-about-restaurant{
+.sar .text-and-photo1{
+    margin-bottom: 32px;
+}
+.sar .text1-div{
+    margin-bottom: 28px;
+}
+.sar .subtitle-about{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    color: #B4B4B4;    
+}
+.sar .title-about{
+    width: 127px;
+    height: 43px;
     font-family: 'Film P3';    
     font-weight: 700;
     font-size: 40px;
-    line-height: 43px;
-    color: #494848;
-    margin: 0px;
-    padding: 0px; 
+    line-height: 1.075;
+    // margin: 0px;
+    // padding: 0px; 
     margin-bottom: 12px;
-
-    width: 127px;
-    height: 43px;
     letter-spacing: 0.3em;
-    }
-
-@media screen and (min-width: 1024px){
-.title-about-restaurant{
- font-family: 'Film P3';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 69px;
-width: 202px;
-height: 69px;
-letter-spacing: 0.3em;
-
-color: #494848;
-margin-bottom: 24px;
- }    
+    color: #494848;
 }
-
-    .text-about-restaurant{
+.sar .text-about{
+    max-width: 258px;
+    height: 76px;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     letter-spacing: 0.02em;
-    margin-bottom: 28px;
-    
     color: #7A7A7A;
-    
-    width: 258px;
-    height: 76px;
-    }
-    @media screen and (min-width: 1024px){
-    .text-about-restaurant{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.02em;
-        
-        color: #7A7A7A;
-        width: 439px;
-       height: 80px; 
-       margin: 0px;    
-    }    
-    }
-
-    .photo-restaurant{
-        display: flex;
-        justify-content: flex-end;
-    margin-bottom: 32px;
-} 
-@media screen and (min-width: 1024px){
-    .photo-restaurant{
-        margin: 0;
-        margin-right: 65px;
-        transform: translateY(-32px);    
-    }    
-    }
-    @media screen and (min-width: 1280px){
-        .photo-restaurant{
-         margin-right: 95px;
-         transform: translateY(-33px);
-            
-        }    
-        }
-
-    .img-about-restuarant{
+}
+.sar .photo1-div{
+    justify-self: end;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+.sar .photo1-div img {
+    width: 244px;
+    height: 322px;
+}
+.sar .text-and-photo2{
     display: flex;  
-    flex-direction: column;
-    align-items:flex-start;
-    padding: 0;
-    margin: 0;  
-    }
+    align-items:center;
+    margin-bottom: 32px; 
+    justify-content: flex-start;
+}
+.sar .photo2-div{
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;     
+}
+.sar .photo2-div img{
+    width: 200px;
+    height: 278px;
+}
+.sar .text2-about{
+    max-width: 163px;
+    width: 100%;
+    height: 120px;
+    margin-left: 28px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
 
-    .photo-about-restaurant{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: flex-end;}
-    
-    @media screen and (min-width: 1024px){
-    .photo-about-restaurant{
-   margin: 0px;
-    }    
+@media screen and (min-width: 1024px) {
+    .section-about-restaurant{
+        padding-top: 120px;
+        padding-bottom: 32px;
     }
-
-    @media screen and (min-width: 1024px){
-        .photo{
-        margin-top: -40px;
-        }    
-        }
-        @media screen and (min-width: 1280px){
-            .photo{
-            margin-top: -65px;
-            }    
-            }
-      
-    
-    .right-text{
+    .sar .text-and-photo1{
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .sar .text1-div{
+        margin-bottom: 0px;
+        margin-right: 25px;
+    }
+    .sar .photo1-div{
+        // width: 400px;
+        margin-top: -144px;
+    }
+    .sar .photo1-div img {
+        width: 400px;
+        height: 524px;
+    }
+    .sar .subtitle-about{
+        font-size: 32px;
+        line-height: 1.156;    
+    }
+    .sar .title-about{
+        width: 202px;
+        height: 69px;
+        font-size: 64px;
+        line-height: 1.078;
+        margin-bottom: 24px;
+    }
+    .sar .text-about{
+        max-width: 439px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;       
+    }
+    .sar .text-and-photo2{
+        margin-top: -15px;
+        margin-bottom: 0px; 
+    }
+    // .sar .photo2-div{
+    //     width: 350px;
+    // }
+    .sar .photo2-div img {
+        width: 350px;
+        height: 500px;
+    }
+    .sar .text2-about{
+        max-width: 312px;
+        height: 122px;
         font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
-        letter-spacing: 0.02em;
-
-        color: #C79002;
-        padding-left: 20px;
-        width: 163px;
-        height: 120px;
-    }
-    @media screen and (min-width: 1024px){
-    .right-text{
-        font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0.02em;  
-        width: 312px;
-       height: 122px;
-       padding-left: 48px;  
-    }    
+        line-height: 1.25;
+        letter-spacing: 0.02em; 
+        margin-left: 48px; 
     }
-
-
-
-
-
-    .photo-rest{
-        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-        border-radius: 2px;     
+    .sar .swiper-and-arrows{
+        margin-top: -30px;
     }
-
-
-
-        // _____SWIPER____
-
-.about-restaurant__swiper{
- overflow: hidden; 
- margin: 0;  
 }
-@media screen and (min-width: 1024px){
- .about-restaurant__swiper{
-    margin-top: -60px;
- }   
+
+@media screen and (min-width: 1280px) {
+    .section-about-restaurant{
+        padding-bottom: 50px;
+    } 
+    .sar .photo1-div{
+        width: 460px;
+    } 
+    .sar .photo1-div img {
+        width: 460px;
+        height: 574px;
+    }
+    .sar .text1-div{
+        margin-right: 37px;
+    }
+    .sar .text-about{
+        max-width: 518px;
+    }
+    .sar .photo2-div{
+        width: 460px;
+    }
+    .sar .photo2-div img {
+        width: 460px;
+        height: 574px;
+    }
+    .sar .text2-about{
+        max-width: 312px;
+    }  
 }
-@media screen and (min-width: 1280px){
-    .about-restaurant__swiper{
-       margin-top: -110px;
-    }   
-   }
-
-        @media screen and (min-width:1024px) {
-            .container {
-                overflow:visible;
-            }}
-        
-        .swiper__container {
-            width: 510px;
-// для слайдера на левой стороне изменить на
-// margin-right: auto;
-            margin-left: auto;
-            
-        }
-    
-
-        .swiper {
-            width: 100%;
-            height: 100%;
-        }
-    
-        .swiper-slide {
-            display: flex;
-            align-items: center;
-        }
-    
-        .swiper-slide img {
-            display: block;
-            width: 245px;
-            height: 245px;
-            object-fit: fill;
-        }
-    
-        .slider__arrows {
-
-// для слайдера на левой стороне изменить 
-// justify-content: start;
-
-            justify-content: end;
-            display: flex;
-            gap: 32px;
-            margin-top: 20px;
-            // margin: 20px 10px;
-        
-        }
-    
-        .s-button-prev-about-rest,
-        .s-button-next-about-rest {
-        cursor: pointer;
-        transition: fill var(--transition-fast);
-        }
-        .s-button-prev-about-rest:hover {
-            fill: var(--accent-text-color);
-        }
-        .s-button-next-about-rest:hover {
-            fill: var(--accent-text-color);
-        }
-        .swiper__container {
-            overflow: hidden;
-// для слайдера на левой стороне добавить           
-// margin-left: -105px;
-        }
-    
-        @media screen and (min-width:1024px) {
-            .swiper-slide img {
-    
-                width: 194px;
-                height: 194px;
-            }
-    
-            .swiper__container {
-                width: 428px;
-                transform: translateX(20px);
-                // margin-top: -54px;
-// для слайдера на левой стороне добавить               
-// margin-left: 0px;
-            }
-    
-            .slider__arrows {
-                margin-top: 32px;
-                // margin: 32px 15px;
-
-            }
-        }
-    
-        @media screen and (min-width:1280px) {
-            .swiper-slide img {
-                width: 254px;
-                height: 254px;
-            }
-    
-            .swiper__container {
-                width: 548px;
-                // margin-top: -100px;
-            }
-        }
-    
-        // _____SWIPER_END_____

@@ -1,304 +1,145 @@
 .section-about-hotel{
-    background: #FFFDEE;
-    padding-bottom: 20px;
-    }
-
-    @media screen and (min-width: 1024px){
-        .section-about-hotel{
-            padding-bottom: 20px; 
-        }    
-        }
-        @media screen and (min-width: 1280px){
-            .section-about-hotel{
-            padding-bottom: 20px;     
-            }    
-            }
-
-
-    @media screen and (min-width: 1024px){
-        .img-hotel-room{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin: 0;
-        
-        }
-    }
-    .section-about-hotel{
-
-    }
-
-    
-    .text-restaurant{
     padding-top: 16px;
+    padding-bottom: 20px;
+}
+.sah .text-and-photo1{
+    margin-bottom: 32px;
+}
+.sah .text1-div{
+    margin-bottom: 28px;
+}
+.sah .subtitle-about{
     font-family: 'Times New Roman';
-    font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
-    color: #B4B4B4;
-    margin-bottom: 12px;    
-    }
-
-    @media screen and (min-width: 1024px) {
-        .text-restaurant{
-            font-family: 'Times New Roman';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 37px;    
-        }    
-        }
-    .title-about-restaurant{
+    line-height: 1.15;
+    text-align: end;
+    margin-bottom: 12px;
+    color: #B4B4B4;    
+}
+.sah .title-about{
+    display: inline-block; 
+    width: 100%;
+    padding-right: -10px;
     font-family: 'Film P3';    
     font-weight: 700;
     font-size: 40px;
-    line-height: 43px;
-    color: #494848;
-    margin: 0px;
-    padding: 0px; 
+    line-height: 1.075;
+    text-align: end;
     margin-bottom: 12px;
-
-    width: 127px;
-    height: 43px;
     letter-spacing: 0.3em;
-    }
-    @media screen and (min-width: 1024px){
-        .title-about-restaurant{
-         font-family: 'Film P3';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 69px;
-        width: 202px;
-        height: 69px;
-        letter-spacing: 0.3em;
-        
-        color: #494848;
-    }    
+    color: #494848;
 }
-    .text-about-hotel{
+.sah .text-about{
+    max-width: 258px;
+    width: 100%;
+    justify-self: end;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     letter-spacing: 0.02em;
-    margin-bottom: 28px;
-    
     color: #7A7A7A;
-    
-    width: 258px;
-    height: 76px;
-    }
-
-    @media screen and (min-width: 1024px){
-    .text-about-hotel{
-        font-size: 16px;
-        line-height: 20px;
-        width: 419px;
-        height: 80px;    
-    }    
-    }
-    
-    .photo-about-restaurant{
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    }
-
-.img-hotel{
-
-margin-bottom: 32px   
 }
-@media screen and (min-width: 1024px){
-.img-hotel{
-    margin: 0;
-    margin-left: 65px;
-transform: translateY(-32px);    
+.sah .photo1-div{
+    width: 244px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 }
+.sah .text-and-photo2{
+    display: flex;  
+    align-items:center;
+    margin-bottom: 32px; 
 }
-@media screen and (min-width: 1280px){
-    .img-hotel{
-        margin-left: 95px;
-    transform: translateY(-33px);    
-    }
-    }
+.sah .photo2-div{
+    width: 200px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;     
+}
+.sah .text2-about{
+    width: 163px;
+    height: 120px;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #C79002;
+}
 
-    .left-text{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
-        letter-spacing: 0.02em;
-
-        color: #C79002;
-        padding-right: 21px;
-        width: 163px;
-        height: 120px;    
-    }
-    @media screen and (min-width: 1024px){
-    .left-text{   
-    width: 312px;
-    height: 122px;
-    font-size: 16px;
-line-height: 20px; 
-padding-right: 48px;   
-    }
-    } 
-        
-    .about-hotel{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    } 
-    @media screen and (min-width: 1024px){
-    .about-hotel{
-    margin-top: 120px;    
-    }    
-    }
-    .img-about-hotel{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+@media screen and (min-width: 1024px) {
+    .section-about-hotel{
+        padding-top: 120px;
         padding-bottom: 32px;
-        margin: 0px;
     }
-    @media screen and (min-width: 1024px){
-    .img-about-hotel{
-        justify-content: flex-end;      
-    }    
-    }  
-    .photo-about-hotel{
-    margin: 0;  
+    .sah .text-and-photo1{
+        margin: 0;
+        display: flex;
+        flex-direction: row-reverse;
     }
-    @media screen and (min-width: 1024px){
-    .photo-about-hotel{
-    margin-top: -45px;    
-    }    
-    } 
-    @media screen and (min-width: 1024px){
-        .photo-about-hotel{
-        margin-top: -65px;    
-        }    
-        } 
-
-
-        .photo-rest{
-            box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-            border-radius: 2px;     
-        }
-
-
-
-
-        // _____SWIPER____
-
-.about-restaurant__swiper{
-    overflow: hidden;
-    margin: 0;   
-   }
-   @media screen and (min-width: 1024px){
-    .about-restaurant__swiper{
-       margin-top: -60px;
-    }   
-   }
-   @media screen and (min-width: 1280px){
-    .about-restaurant__swiper{
-       margin-top: -110px;
-    }   
-   }
-           
-           .swiper__container_hotel {
-               width: 510px;
-   // для слайдера на левой стороне изменить на
-   // margin-right: auto;
-               margin-right: auto;
-           }
-       
-   
-           .swiper {
-               width: 100%;
-               height: 100%;
-           }
-       
-           .swiper-slide {
-               display: flex;
-               align-items: center;
-           }
-       
-           .swiper-slide img {
-               display: block;
-               width: 245px;
-               height: 245px;
-               object-fit: fill;
-           }
-       
-           .slider__arrows_hotel {
-   
-   // для слайдера на левой стороне изменить 
-   // justify-content: start;
-   
-               justify-content: start;
-               display: flex;
-               gap: 32px;
-               margin: 20px 10px;
-           
-           }
-       
-           .s-button-prev-1,
-           .s-button-next-1{
-               cursor: pointer;
-               transition: hover var(--transition-fast);
-           }
-        .s-button-prev-1:hover {
-            fill: var(--accent-text-color);
-        }
-        .s-button-next-1:hover {
-            fill: var(--accent-text-color);
-        }
-
-       
-           .swiper__container_hotel {
-               overflow: hidden;
-   // для слайдера на левой стороне добавить           
-   // margin-left: -105px;
-           }
-       
-           @media screen and (min-width:1024px) {
-.swiper__container_hotel {
-    width: 428px;
+    .sah .text1-div{
+        margin-bottom: 0px;
+        margin-left: 45px;
+    }
+    .sah .photo1-div{
+        width: 400px;
+        margin-top: -144px;
+    }
+    .sah .subtitle-about{
+        font-size: 32px;
+        line-height: 1.156;    
+    }
+    .sah .title-about{
+        font-size: 64px;
+        line-height: 1.078;
+        margin-bottom: 24px;
+        transform: translateX(20px);
+    }
+    .sah .text-about{
+        max-width: 419px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;       
+    }
+    .sah .text-and-photo2{
+        justify-content: flex-end;
+        margin-top: -15px;
+        margin-bottom: 0px;
+    }
+    .sah .photo2-div{
+        width: 350px
+    }
+    .sah .text2-about{
+        width: 312px;
+        height: 122px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+    }
+    .sah .swiper-and-arrows{
+        margin-top: -30px;
+    }
 }
-               .swiper-slide img {
-       
-                   width: 194px;
-                   height: 194px;
-               }
-       
-               .swiper__container {
-                   width: 428px;
-                   // margin-top: -54px;
-   // для слайдера на левой стороне добавить               
-   // margin-left: 0px;
-               }
-       
-               .slider__arrows {
-                   margin: 32px 15px;
-   
-               }
-           }
-       
-           @media screen and (min-width:1280px) {
-            .swiper__container_hotel {
-                    width: 548px;}
-               .swiper-slide img {
-                   width: 254px;
-                   height: 254px;
-               }
-       
-               .swiper__container {
-                   width: 548px;
-                   // margin-top: -100px;
-               }
-           }
-       
-           // _____SWIPER_END_____
+
+@media screen and (min-width: 1280px) {
+    .section-about-hotel{
+        padding-bottom: 50px;
+    }
+    .sah .photo1-div{
+        width: 460px;
+    } 
+    .sah .text1-div{
+        margin-left: 67px;
+    }
+    .sah .text-about{
+        max-width: 488px;
+    }
+    .sah .photo2-div{
+        width: 460px;
+    }
+    .sah .text-about{
+        max-width: 488px;
+    }
+}

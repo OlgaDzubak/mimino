@@ -1,0 +1,38 @@
+<div class="modal" data-modal="3">
+
+    <svg class="modal__cross js-modal-close">
+        <use href="./images/svg/sprite.svg#icon-close"></use>
+    </svg>
+
+    <h2 class="modal__title">ЦІНИ ЗА НОМЕР</h2>
+
+    <form class="modal-form">
+
+        <div class="modal-group modal-select">
+            <select class="modal-input room select" name="room_type">
+                <option value="Двомісний люкс" selected>Двомісний номер люкс</option>
+                <option value="Двомісний">Двомісний номер</option>
+                <option value="Тримісний">Трьохмісний номер</option>
+            </select>
+            <label class="modal-label">Категорія номеру</label>
+        </div>
+        
+        <div class="common-group">
+
+            <div class="modal-group">
+                <input class="modal-input" type="text" name="nights" pattern="^[0-9]+$" placeholder="1" required autofocus>
+                <label class="modal-label" for="nights">Кількість ночей</label>
+            </div>
+
+            <div class="modal-group">
+                <input class="modal-input" type="text" name="price" pattern="^[0-9]+$" value="2000" readonly>
+                <label class="modal-label" for="price">грн</label>
+            </div>
+
+        </div>
+
+        <button class="modal-button-submit book-room-btn" type="button">ЗАБРОНЮВАТИ НОМЕР</button>
+
+    </form>
+
+</div>

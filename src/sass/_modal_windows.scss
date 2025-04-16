@@ -15,9 +15,6 @@
     z-index: 101;
     transition: opacity var(--transition-slow), visibility var(--transition-slow);
  }
-//  .modal.hidden {
-//     display: none;
-//  }
 
  .modal {
    
@@ -163,40 +160,30 @@
     appearance: none;
     z-index: 1;
      
-  }
-  .modal-input.data-select::-webkit-calendar-picker-indicator {
-    opacity: 0;
-    z-index: 2;
-    // width: 30%;
-    color: transparent;
-    margin-right: 0;
-  }
-  .modal-select::after {
+}
+.modal-input.data-select::-webkit-calendar-picker-indicator {
+opacity: 0;
+z-index: 2;
+// width: 30%;
+color: transparent;
+margin-right: 0;
+}
+.modal-select::after {
     content: "";
     position: absolute;
     top: 16px;
     right: 15px;
-   
     width: 24px;
     height: 24px;
     background-image: url(../images/svg/select-check.svg);
     background-repeat: no-repeat;
     background-position: center;
     z-index: 0;
-  }
-  option {
+}
+option {
     background-color: var(--background-lighter);   
-  }
-//    .select_arrow {
-//     position: absolute;
-//     top: 16px;
-//     right: 15px;
-   
-//     width: 24px;
-//     height: 24px;
-//     z-index: 0;
-//   }
-  .modal-button-submit {
+}
+.modal-button-submit {
     height: 64px;
     width: 100%;
     margin-top: 20px;
@@ -214,17 +201,6 @@
 .modal-button-submit:hover, .modal-button-submit:focus {
     background-color: var(--accent-color);
     color: var(--footer-background);
-}
-.disable-scroll {
-	position: relative;
-	overflow: hidden;
-	height: 100vh;
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-   
-    z-index: 1;
 }
 @media screen and (min-width: 1024px) {
     .room-group {

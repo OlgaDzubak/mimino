@@ -1,0 +1,182 @@
+.hotel-double-room {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.hotel-triple-room {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--background-darker);
+}
+.hotel-photo-text {
+    display: flex;
+    flex-direction: column;
+}
+.hotel-triple-room .hotel-content{
+  text-align: right;
+ // margin-left: 48px;
+}
+.hotel-photo-text {
+    margin-bottom: 32px;
+}
+.hotel-first-text {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 1.15;
+    color: #B4B4B4;
+    margin-bottom: 8px;
+}
+.hotel-first-title {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+    color: #494848;
+    margin-bottom: 32px;
+}
+.hotel-scnd-title {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.166;
+    letter-spacing: 0.048em;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.hotel-scnd-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7A7A7A;
+    max-width: 242px;
+    margin-bottom: 32px;
+}
+.hotel-triple-room .hotel-scnd-text {
+    text-align: left;
+    justify-self: end;
+    margin-right: 40px;
+}
+.hotel-img {
+    display: flex;
+    justify-content: flex-end;
+}
+.hotel-triple-room .hotel-img {
+    justify-content: flex-start;
+}
+.hotel-photo {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+.hotel-photo-list {
+    display: flex;
+}
+.hotel-button-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 16px;
+}
+.hotel-link,
+.hotel-btn {
+    width: 236px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 25px;
+    padding: 12px 0px 12px 0px;
+    display: block;
+    text-align: center;
+    color: #F3C653;
+    background: #000000;
+    border: 2px solid #FFFDEE;
+    transition: background-color var(--transition-slow), border var(--transition-slow);
+}
+.hotel-link:hover, .hotel-link:focus,
+.hotel-btn:hover,  .hotel-btn:focus {
+    background: #FFFFFF;
+    border: 2px solid #F3C653;
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-double-room,
+    .hotel-triple-room {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+    .hotel-double-room .hotel-content {
+        width: 439px;
+        margin-right: 26px;
+    }
+    .hotel-triple-room .hotel-content {
+        width: 400px;
+        margin-left: 45px;
+    }
+    .hotel-photo-text {
+        flex-direction: row;
+        margin-bottom: 48px;
+    }
+    .hotel-triple-room .hotel-photo-text{
+        flex-direction: row-reverse;
+    }
+    .hotel-first-text {
+        font-size: 32px;
+        line-height: 1.156;
+    }
+    .hotel-first-title {
+        font-size: 64px;
+        line-height: 1.078;
+        margin-bottom: 62px;
+    }
+    .hotel-triple-room .hotel-first-title {
+        margin-right: -18px;
+    }
+    .hotel-scnd-title {
+        font-size: 30px;
+        line-height: 1.133;
+    }
+    .hotel-triple-room .hotel-scnd-title{
+        text-align:left;
+    }
+    .hotel-scnd-text {
+        max-width: 439px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .hotel-triple-room .hotel-scnd-text{
+        justify-self: start;
+        margin: 0;
+    }
+    .hotel-img {
+        margin-top: -95px;
+    }
+    .hotel-button-list{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-double-room .hotel-content{
+        width: 507px;
+        margin-right: 50px;
+    }
+    .hotel-triple-room .hotel-content {
+        width: 453px;
+        margin-left: 50px;
+        margin-right: 57px;
+    }
+    .hotel-first-title {
+            margin-bottom: 72px;
+    }
+    .hotel-double-room .hotel-img {
+            margin-right: 65px;
+            margin-top: -105px;
+    }
+    .hotel-scnd-title {
+        font-size: 36px;
+        line-height: 1.14;
+    }
+}
