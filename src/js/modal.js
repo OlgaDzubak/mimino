@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
    });
 
    inputNights && inputNights.addEventListener('input', function () {
-      const { label : roomType } = modalSelect.selectedOptions[0];
+      const { label : roomType } = modalRoomSelect.selectedOptions[0];
       const { value : nights } = inputNights;
       const { price } = roomData.find(item => item.room_ua === roomType);
       inputPrice.value = (nights || 1) * price;
