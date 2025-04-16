@@ -40,6 +40,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Montserrat';
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+                    url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@1x.avif");
 }
 .hero .container {
   position: relative;
@@ -163,11 +165,7 @@
   (min-resolution: 192dpi) and (max-width: 1023.9px),
   (min-resolution: 2dppx) and (max-width: 1023.9px) {
   .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
-      ),
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@2x.avif");
   }
 }
@@ -177,7 +175,7 @@
     padding-top: 188px;
     padding-bottom: 15px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@1x.avif");
+      url("/src/images/img/restaurant-page/main-images/tablet/rest_page_hero_tab@1x.avif");
   }
 
   .hero-title {
@@ -230,11 +228,7 @@
   screen and (min-resolution: 192dpi) and (min-width: 1024px),
   screen and (min-resolution: 2dppx) and (min-width: 1024px) {
   .hero {
-    background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)
-      ),
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url("/src/images/img/restaurant-page/main-images/tablet/rest_page_hero_tab@2x.avif");
   }
 }
@@ -265,11 +259,7 @@
         screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
         .hero {
-          background-image: linear-gradient(
-              to right,
-              rgba(0, 0, 0, 0.65),
-              rgba(0, 0, 0, 0.65)
-            ),
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
             url("/src/images/img/restaurant-page/main-images/desktop/rest_page_hero_desk@2x.avif");
         }
 }
