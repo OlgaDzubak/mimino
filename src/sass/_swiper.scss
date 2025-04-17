@@ -36,6 +36,10 @@
 .hotel-page .swiper_about .swiper-slide-img {
   height: 194px !important;
 }
+.hotel-double-room-luxe .swiper-wrapper,
+.hotel-double-room .swiper-wrapper {
+  margin-left: 25% !important;
+}
 
 @media screen and (min-width: 1024px){
   .swiper_about,
@@ -112,10 +116,6 @@
 }
 .hotel-triple-room .swiper-and-arrows {
   align-self: end;
-}
-.hotel-double-room-luxe .swiper-wrapper,
-.hotel-double-room .swiper-wrapper{
-  margin-left: 25% !important;
 }
 .swiper_details{
   overflow: hidden; 
