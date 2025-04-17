@@ -4,6 +4,7 @@
 var swiper = new Swiper(".swiper__main", {
   loop: true,
   slidesPerView: 'auto',
+  spaceBetween: 20,
   autoplay: {
     delay: 2000,
     disableOnInteraction: true,
@@ -31,6 +32,7 @@ var swiper = new Swiper(".swiper__main", {
 var swiper1 = new Swiper(".swiper__main_1", {
   loop: true,
   slidesPerView: 'auto',
+  spaceBetween: 20,
   autoplay: {
     delay: 2000,
     disableOnInteraction: true,
@@ -59,6 +61,7 @@ var swiper1 = new Swiper(".swiper__main_1", {
 var swiper2 = new Swiper(".swiper__main_2", {
   loop: true,
   slidesPerView: 'auto',
+  spaceBetween: 20,
   autoplay: {
     delay: 2000,
     disableOnInteraction: true,
@@ -86,6 +89,7 @@ var swiper2 = new Swiper(".swiper__main_2", {
 var swiper3 = new Swiper(".swiper__main_3", {
   loop: true,
   slidesPerView: 'auto',
+  spaceBetween: 20,
   autoplay: {
     delay: 2000,
     disableOnInteraction: true,
@@ -113,6 +117,7 @@ var swiper3 = new Swiper(".swiper__main_3", {
 var swiper4 = new Swiper(".swiper__main_4", {
   loop: true,
   slidesPerView: 'auto',
+  spaceBetween: 20,
   autoplay: {
     delay: 2000,
     disableOnInteraction: true,
