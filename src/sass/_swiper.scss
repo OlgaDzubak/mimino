@@ -16,6 +16,9 @@
   margin: 0;  
   overflow: hidden;
 }
+.hotel-page .swiper_about {
+  width: 284px !important;
+}
 .swiper_about.restaurant {
   justify-self: end !important;
   margin-right: -15px;
@@ -106,14 +109,13 @@
 .hotel-double-room-luxe .swiper-and-arrows,
 .hotel-double-room .swiper-and-arrows{
   align-self: start;
-  //margin-left: -15px;
 }
 .hotel-triple-room .swiper-and-arrows {
   align-self: end;
 }
 .hotel-double-room-luxe .swiper-wrapper,
 .hotel-double-room .swiper-wrapper{
-  right: 0px !important;
+  margin-left: 25% !important;
 }
 .swiper_details{
   overflow: hidden; 
