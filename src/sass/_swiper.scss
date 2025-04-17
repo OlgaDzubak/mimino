@@ -16,25 +16,30 @@
   margin: 0;  
   overflow: hidden;
 }
-.swiper_about .swiper-slide{
-  height: 245px !important;
+.hotel-page .swiper_about {
+  width: 284px !important;
 }
 .swiper_about.restaurant {
   justify-self: end !important;
-  transform: translateX(15px);
+  margin-right: -15px;
 }
 .swiper_about.hotel {
   margin-left: -15px;
 }
 .hotel-triple-room .swiper_about.hotel{
-  margin-right: 15px;
+  margin-right: -15px;
 }
 .swiper_about .swiper-slide-img{
   height: 245px !important;
   width: auto !important;
 }
+.hotel-page .swiper_about .swiper-slide-img {
+  height: 194px !important;
+}
+
 @media screen and (min-width: 1024px){
-  .swiper_about{
+  .swiper_about,
+  .hotel-page .swiper_about{
       width: 428px !important;
   }
   .swiper_about .swiper-wrapper{
@@ -51,9 +56,16 @@
   .hotel-triple-room .swiper_about.hotel {
     margin: 0;
   }
+  .swiper_about.restaurant {
+    margin-right: 0px;
+  }
+  .section-about-restaurant-two .swiper-and-arrows {
+    margin-top: -62px;
+  }
 }
 @media screen and (min-width: 1280px){
-  .swiper_about{
+  .swiper_about,
+  .hotel-page .swiper_about{
       width: 548px !important;
   }
   .swiper_about .swiper-slide{
@@ -62,6 +74,9 @@
   .swiper_about .swiper-slide-img {
     height: 254px !important;
     width: auto !important;
+  }
+  .section-about-restaurant-two .swiper-and-arrows {
+    margin-top: -150px;
   }
 }
 
@@ -98,7 +113,10 @@
 }
 .hotel-triple-room .swiper-and-arrows {
   align-self: end;
-  //margin-left: -15px;
+}
+.hotel-double-room-luxe .swiper-wrapper,
+.hotel-double-room .swiper-wrapper{
+  margin-left: 90px !important;
 }
 .swiper_details{
   overflow: hidden; 
@@ -136,6 +154,10 @@
   }
   .hotel-triple-room .swiper-arrows-and-buttons {
     flex-direction: row-reverse;
+  }
+  .hotel-double-room-luxe .swiper-wrapper,
+  .hotel-double-room .swiper-wrapper {
+    margin-left: 0px !important;
   }
 }
 @media screen and (min-width:1280px) {
@@ -182,19 +204,26 @@
 }
 .slider__arrows.details.hotel,
 .slider__arrows.about.restaurant,
-.hotel-double-room .slider__arrows.about.hotel{
+.hotel-triple-room .slider__arrows.about.hotel{
   justify-self: end !important;
 }
 
 .slider__arrows.details.restaurant,
 .slider__arrows.about.hotel,
-.hotel-triple-room .slider__arrows.about.hotel{
+.hotel-double-room .slider__arrows.about.hotel{
   justify-self: start !important;
 }
+ 
 
 @media screen and (min-width:1024px) {
   .slider__arrows{
       margin-top: 24px;
+  }
+  .hotel-triple-room .slider__arrows.about.hotel {
+    justify-self: start !important;
+  }
+  .hotel-double-room .slider__arrows.about.hotel {
+    justify-self: end !important;
   }
 }
 //____SWIPER ARROWS__END
