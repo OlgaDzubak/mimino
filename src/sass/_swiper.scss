@@ -114,10 +114,10 @@
 .hotel-triple-room .swiper-and-arrows {
   align-self: end;
 }
-// .hotel-double-room-luxe .swiper-wrapper,
-// .hotel-double-room .swiper-wrapper{
-//   margin-left: 90px !important;
-// }
+.hotel-double-room-luxe .swiper-wrapper,
+.hotel-double-room .swiper-wrapper{
+  right: 0px !important;
+}
 .swiper_details{
   overflow: hidden; 
 }
