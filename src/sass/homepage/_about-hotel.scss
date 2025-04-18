@@ -66,6 +66,10 @@
     letter-spacing: 0.02em;
     color: #C79002;
 }
+.sah .swiper-slide-img{
+    width: auto;
+    height: 245px;
+}
 
 @media screen and (min-width: 1024px) {
     .section-about-hotel{
@@ -121,6 +125,9 @@
     .sah .swiper-and-arrows{
         margin-top: -30px;
     }
+    .sah .swiper-slide-img {
+        height: 194px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -141,5 +148,8 @@
     }
     .sah .text-about{
         max-width: 488px;
+    }
+    .sah .swiper-slide-img {
+        height: 245px;
     }
 }
