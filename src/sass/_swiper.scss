@@ -112,9 +112,13 @@
 }
 .hotel-double-room-luxe .swiper-and-arrows,
 .hotel-double-room .swiper-and-arrows{
+  display: flex;
+  flex-direction: column;
   align-self: start;
 }
 .hotel-triple-room .swiper-and-arrows {
+   display: flex;
+  flex-direction: column;
   align-self: end;
 }
 .swiper_details{
@@ -208,9 +212,11 @@
 }
 
 .slider__arrows.details.restaurant,
-.slider__arrows.about.hotel,
-.hotel-double-room .slider__arrows.about.hotel{
+.slider__arrows.about.hotel{
   justify-self: start !important;
+}
+.hotel-double-room .slider__arrows.about.hotel{
+  align-self: end !important;
 }
  
 
