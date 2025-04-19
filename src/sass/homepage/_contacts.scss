@@ -2,7 +2,7 @@
 
 // styles only for mobile
 
-@media screen and (max-width: 413.98px){   //для телефонів які меньше ніж 414px по ширині, переносимо контактні телефони в стовбчик, якщо їх два
+@media screen and (max-width: 413.98px){   
     .contacts-section-phones-ul-li-numbers{
         flex-direction: column;
     }
@@ -169,11 +169,10 @@
     }
     .contact-section-map-div{
         height: 100%;
-        // overflow: hidden;
     }
     .contact-section-map-iframe{
-        border: 1px solid #BABABA;
-        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border: 1px solid var(--border-color1);
+        box-shadow: 2px 2px 60px 2px var(--shadow-color);
         border-radius: 2px;
     }
     
@@ -257,7 +256,6 @@
         margin-right: 108px;
     }
     .sidebar-title{
-        // color: #828282;
         margin-bottom: 16px;
     }
     .sidebar-subtitle{

@@ -7,7 +7,7 @@
 }
 .details-restraunt-title {
   width: 100%;
-  font-family: 'Film P3';
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 40px;
   line-height: 1.078;
@@ -45,8 +45,8 @@
   height: 48px;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid #FFFFFF;
+  background: var(--btn-backgroubd);
+  border: 2px solid var(--logo-theme-dark);
   border-radius: 25px;
   font-weight: 700;
   font-size: 16px;

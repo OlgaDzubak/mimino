@@ -32,145 +32,11 @@
     opacity: 1;
   }
 }
-.hero {
-  padding-top: 181px;
-  padding-bottom: 20px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: 'Montserrat';
-}
-.hero .container {
-  position: relative;
-}
-.hero-title {
-  animation: focus-in-expand-fwd 800ms ease-out;
-  text-align: center;
-  margin-bottom: 24px;
-  margin-left: calc(96 * 0.3);
-  font-family: 'Film P3';
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 1.07;
-  letter-spacing: 0.3em;
-  color: var(--logo-theme-dark);
-}
-.hero-description {
-  animation: focus-in-expand-fwd 800ms ease-out;
-  margin-bottom: 40px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--logo-theme-dark);
-}
-.hero-text {
-  animation: textFromBotton 800ms linear 900ms both;
-  transform: translateY(100px);
-  margin-bottom: 113px;
-  font-family: 'Times New Roman';
-  font-size: 32px;
-  text-align: center;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.05em;
-  color: var(--logo-theme-dark);
-}
-
-.hero-adress-link {
-  position: absolute;
-  top: -110px;
-  right: 15px;
-
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-
-  padding: 8px 6px;
-  font-weight: 400;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
-  text-align: start;
-  text-decoration: none;
-  color: #e5e5e5;
-  border: 1px solid rgba(243, 198, 83, 0.7);
-  border-radius: 2px;
-  transition: var(--transition-slow);
-}
-.hero-adress-link:hover,
-.hero-adress-link:focus {
-  border: 1px solid var(--accent-text-color);
-}
-.hero-adress-link:hover .icon-adress,
-.hero-adress-link:focus .icon-adress {
-  fill: var(--accent-text-color);
-}
-.icon-adress {
-  transition: var(--transition-slow);
-  fill: var(--accent-color);
-}
-
-.hero-list-btn {
-  display: flex;
-}
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid var(--logo-theme-dark);
-  border-radius: 50px;
-
-  transition: background-color var(--transition-slow),
-    border var(--transition-slow);
-}
-.button:hover,
-.button:focus {
-  background-color: var(--logo-theme-dark);
-  border: 2px solid var(--accent-color);
-}
-
-.hero-social-list {
-  display: flex;
-  gap: 20px;
-}
-.hero-social-link {
-  fill: var(--accent-color);
-  transition: fill var(--transition-slow);
-}
-.hero-social-link:hover,
-.hero-social-link:focus {
-  fill: var(--accent-text-color);
-}
-
-@media screen and (max-width: 385px) {
-  .hero-title {
-    margin-left: calc(80 * 0.3);
-    font-size: 80px;
-  }
-}
 
 @media screen and (max-width: 1023.9px) {
-  .hero {
+  .restaurant-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
                       url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@1x.avif");
-  }
-  .hero-list-btn {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 58px;
-    gap: 15px;
-  }
-
-  .hero-adress-text {
-    font-size: 12px;
   }
 }
 
@@ -178,90 +44,37 @@
   (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023.9px),
   (min-resolution: 192dpi) and (max-width: 1023.9px),
   (min-resolution: 2dppx) and (max-width: 1023.9px) {
-  .hero {
+  .restaurant-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url("/src/images/img/restaurant-page/main-images/mobile/rest_page_hero_mob@2x.avif");
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero {
+  .restaurant-hero {
     padding-top: 188px;
     padding-bottom: 15px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url("/src/images/img/restaurant-page/main-images/tablet/rest_page_hero_tab@1x.avif");
   }
 
-  .hero-title {
-    margin-bottom: 16px;
-    font-size: 128px;
-  }
-
-  .hero-description {
-    margin-bottom: 56px;
-    font-size: 20px;
-  }
-
-  .hero-text {
-    margin-bottom: 137px;
-    font-size: 36px;
-  }
-
-  .hero-adress-link {
-    position: static;
-    font-size: 16px;
-    padding: 8px 11px;
-    gap: 10px;
-  }
-
-  .hero-list-btn {
-    flex-direction: row;
-    margin-bottom: 0px;
-    gap: 40px;
-  }
-
-  .hero-adress-text {
-    font-size: 12px;
-  }
-
-  .hero-adress-btn-wrapper {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 25px;
-  }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
   screen and (min-resolution: 192dpi) and (min-width: 1024px),
   screen and (min-resolution: 2dppx) and (min-width: 1024px) {
-  .hero {
+  .restaurant-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url("/src/images/img/restaurant-page/main-images/tablet/rest_page_hero_tab@2x.avif");
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
+  .restaurant-hero {
     padding-top: 164px;
     padding-bottom: 64px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url("/src/images/img/restaurant-page/main-images/desktop/rest_page_hero_desk@1x.avif");
-  }
-  .hero-title {
-    margin-bottom: 32px;
-  }
-  .hero-description {
-    margin-bottom: 64px;
-  }
-  .hero-adress-btn-wrapper {
-    margin-bottom: 0px;
-  }
-  .hero-social-list {
-    display: none;
-  }
-  .hero-list-btn {
-    gap: 60px;
   }
 }
 @media  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -269,8 +82,8 @@
         screen and (min-resolution: 192dpi) and (min-width: 1280px),
         screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
-        .hero {
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-            url("/src/images/img/restaurant-page/main-images/desktop/rest_page_hero_desk@2x.avif");
-        }
+  .restaurant-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("/src/images/img/restaurant-page/main-images/desktop/rest_page_hero_desk@2x.avif");
+  }
 }

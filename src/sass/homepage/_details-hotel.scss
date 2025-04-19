@@ -8,7 +8,7 @@
 }
 .details-hotel-title {
   width: 100%;
-  font-family: 'Film P3';
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 40px;
   line-height: 1;
@@ -44,7 +44,6 @@
   position: relative;
 }
 .hotel-buttons-box {
-  list-style: none;
   margin-top: 32px;
 }
 .hotel-details-btn,
@@ -54,8 +53,8 @@
   height: 48px;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid #FFFFFF;
+  background: var(--btn-backgroubd);
+  border: 2px solid var(--logo-theme-dark);
   border-radius: 25px;
   font-weight: 700;
   font-size: 16px;
@@ -104,10 +103,8 @@
       padding-top: 48px;
       background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
                         url('/src/images/img/home-page/main-images/tablet/det_hotel_tab@1x.avif');
-//      height: 620px;
   }
   .details-hotel-text {
-    //margin-left: 150px;
     margin-left: 295px;
   }
   .details-hotel-title {

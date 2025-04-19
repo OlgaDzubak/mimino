@@ -9,38 +9,36 @@
     margin-bottom: 28px;
 }
 .sar .subtitle-about{
-    font-family: 'Times New Roman';
+    font-family: var(--additional-font);
     font-size: 20px;
     line-height: 1.15;
     margin-bottom: 12px;
-    color: #B4B4B4;    
+    color: var(--subtitle-color);
 }
 .sar .title-about{
     width: 127px;
     height: 43px;
-    font-family: 'Film P3';    
+    font-family: var(--logo-font);
     font-weight: 700;
     font-size: 40px;
     line-height: 1.075;
-    // margin: 0px;
-    // padding: 0px; 
     margin-bottom: 12px;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--logo-theme-light);
 }
 .sar .text-about{
     max-width: 258px;
     height: 76px;
-    font-family: 'Montserrat';
+    font-family: var(--main-font);
     font-weight: 600;
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--secondary-text-color);
 }
 .sar .photo1-div{
     justify-self: end;
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 60px 2px var(--shadow-color);
     border-radius: 2px;
 }
 .sar .photo1-div img {
@@ -54,7 +52,7 @@
     justify-content: flex-start;
 }
 .sar .photo2-div{
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 60px 2px var(--shadow-color);
     border-radius: 2px;     
 }
 .sar .photo2-div img{
@@ -64,19 +62,19 @@
 .sar .text2-about{
     max-width: 163px;
     width: 100%;
-    height: 120px;
     margin-left: 28px;
-    font-family: 'Montserrat';
+    font-family: var(--main-font);
     font-weight: 600;
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--accent-text-color);
 }
 .sar .swiper-slide-img {
     width: auto;
     height: 245px;
 }
+
 @media screen and (min-width: 1024px) {
     .section-about-restaurant{
         padding-top: 120px;
@@ -92,7 +90,6 @@
         margin-right: 25px;
     }
     .sar .photo1-div{
-        // width: 400px;
         margin-top: -144px;
     }
     .sar .photo1-div img {
@@ -120,17 +117,13 @@
         margin-top: -15px;
         margin-bottom: 0px; 
     }
-    // .sar .photo2-div{
-    //     width: 350px;
-    // }
     .sar .photo2-div img {
         width: 350px;
         height: 500px;
     }
     .sar .text2-about{
         max-width: 312px;
-        height: 122px;
-        font-family: 'Montserrat';
+        font-family: var(--main-font);
         font-weight: 600;
         font-size: 16px;
         line-height: 1.25;

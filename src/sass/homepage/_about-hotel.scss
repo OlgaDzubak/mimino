@@ -14,35 +14,35 @@
     line-height: 1.15;
     text-align: end;
     margin-bottom: 12px;
-    color: #B4B4B4;    
+    color: var(--subtitle-color);    
 }
 .sah .title-about{
     display: inline-block; 
     width: 100%;
     padding-right: -10px;
-    font-family: 'Film P3';    
+    font-family: var(--logo-font);    
     font-weight: 700;
     font-size: 40px;
     line-height: 1.075;
     text-align: end;
     margin-bottom: 12px;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--logo-theme-light);
 }
-.sah .text-about{
+.sah .text1-about{
     max-width: 258px;
     width: 100%;
     justify-self: end;
-    font-family: 'Montserrat';
+    font-family: var(--main-font);
     font-weight: 600;
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--secondary-text-color);
 }
 .sah .photo1-div{
     width: 244px;
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 60px 2px var(--shadow-color);
     border-radius: 2px;
 }
 .sah .text-and-photo2{
@@ -52,19 +52,18 @@
 }
 .sah .photo2-div{
     width: 200px;
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 60px 2px var(--shadow-color);
     border-radius: 2px;     
 }
 .sah .text2-about{
     width: 163px;
-    height: 120px;
     margin-right: 20px;
-    font-family: 'Montserrat';
+    font-family: var(--main-font);
     font-weight: 600;
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #C79002;
+    color: var(--accent-text-color);
 }
 .sah .swiper-slide-img{
     width: auto;
@@ -99,7 +98,7 @@
         margin-bottom: 24px;
         transform: translateX(20px);
     }
-    .sah .text-about{
+    .sah .text1-about{
         max-width: 419px;
         font-size: 16px;
         line-height: 1.25;
@@ -115,8 +114,7 @@
     }
     .sah .text2-about{
         width: 312px;
-        height: 122px;
-        font-family: 'Montserrat';
+        font-family: var(--main-font);
         font-weight: 600;
         font-size: 16px;
         line-height: 1.25;
@@ -140,14 +138,11 @@
     .sah .text1-div{
         margin-left: 67px;
     }
-    .sah .text-about{
+    .sah .text1-about{
         max-width: 488px;
     }
     .sah .photo2-div{
         width: 460px;
-    }
-    .sah .text-about{
-        max-width: 488px;
     }
     .sah .swiper-slide-img {
         height: 245px;
