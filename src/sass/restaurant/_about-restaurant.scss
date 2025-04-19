@@ -2,6 +2,11 @@
     padding-top: 16px;
     padding-bottom: 20px;
 }
+.section-about-restaurant-two .swiper-and-arrows{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .about-restaurant-two-1 {
     padding: 0;
     margin-bottom: 32px;
@@ -77,6 +82,9 @@
     .section-about-restaurant-two {
         padding-top: 0px;
         padding-bottom: 25px;
+    }
+    .section-about-restaurant-two .swiper-and-arrows {
+        align-items: flex-end;
     }
     .about-restaurant-two-1 {
         margin: -32px 0px 0px 0px;

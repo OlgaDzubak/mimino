@@ -3,6 +3,9 @@
     padding-bottom: 20px;
 }
 .sar .text-and-photo1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     margin-bottom: 32px;
 }
 .sar .text1-div{
@@ -36,8 +39,10 @@
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
+.sar .text-and-photo1 .photo1-div{
+    align-self: flex-end;
+}
 .sar .photo1-div{
-    justify-self: end;
     box-shadow: 2px 2px 60px 2px var(--shadow-color);
     border-radius: 2px;
 }
@@ -81,9 +86,8 @@
         padding-bottom: 32px;
     }
     .sar .text-and-photo1{
+        flex-direction: row;
         margin: 0;
-        display: flex;
-        justify-content: flex-start;
     }
     .sar .text1-div{
         margin-bottom: 0px;
@@ -164,6 +168,11 @@
     }
     .sar .text2-about{
         max-width: 312px;
+    }
+    .sar .swiper-and-arrows {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
     .sar .swiper-slide-img {
         height: 245px;
