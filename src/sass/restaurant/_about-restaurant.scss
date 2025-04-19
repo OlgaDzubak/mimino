@@ -9,47 +9,51 @@
 }
 .about-restaurant-two-1 {
     padding: 0;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 32px;
 }
 .text-restaurant-two-1 {
     padding-top: 16px;
-    font-family: 'Times New Roman';
+    font-family: var(--additional-font);
     font-size: 20px;
     line-height: 23px;
-    color: #B4B4B4;
+    color: var(--subtitle-color);
     margin-bottom: 12px;
 }
 .title-about-restaurant-two-1 {
     width: 127px;
     height: 43px;
-    font-family: 'Film P3';
+    padding: 0px;
+    font-family: var(--logo-font);
     font-weight: 700;
     font-size: 40px;
-    line-height: 43px;
-    color: #494848;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 12px;
+    line-height: 1.075;
     letter-spacing: 0.3em;
+    color: var(--logo-theme-light);
+    margin: 0px;
+    margin-bottom: 12px;
+    
 }
 .text-about-restaurant-two-1 {
     width: 258px;
     height: 76px;
-    font-family: 'Montserrat';
+    font-family: var(--main-font);
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     letter-spacing: 0.02em;
     margin-bottom: 28px;
-    color: #7A7A7A;
+    color: var(--secondary-text-color);
 }
 .photo-restaurant-two-1 {
     width: fit-content;
+    align-self: flex-end;
     margin-bottom: 32px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
 }
 .about-restaurant-two-1 .photo-restaurant-two-1{
-    justify-self: end;
+    justify-self: flex-end;
 }
 
 .about-restaurant-two-2 {
@@ -88,15 +92,17 @@
     }
     .about-restaurant-two-1 {
         margin: -32px 0px 0px 0px;
-        display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        gap: 26px;
+    }
+    .about-restaurant-two-1 .photo-restaurant-two-1 {
+        justify-self: flex-start;
     }
     .text-two-1 {
         padding-top: 152px;
     }
     .text-restaurant-two-1 {
-        font-family: 'Times New Roman';
-        font-style: normal;
+        font-family: var(--additional-font);
         font-weight: 400;
         font-size: 32px;
         line-height: 37px;
@@ -112,19 +118,17 @@
     .text-about-restaurant-two-1 {
         width: 439px;
         height: 80px;
-        font-family: 'Montserrat';
+        font-family: var(--main-font);
         font-size: 16px;
-        line-height: 20px;
-        color: #7A7A7A;
+        line-height: 1.25;
+        color: var(--secondary-text-color);
         margin: 0px;
     }
     .photo-restaurant-two-1 {
         margin-bottom: 0;
-        margin-right: 65px;
     }
 
     .about-restaurant-two-2 {
-        align-items: center;
         margin-top: -15px;
         gap: 48px;
     }
@@ -144,6 +148,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .about-restaurant-two-1 {
+        gap: 37px;
+    }
+    .text-about-restaurant-two-1 {
+        width: 518px;
+    }
     .about-restaurant-two-2 {
         margin-top: -65px;
         gap: 32px;

@@ -4,8 +4,8 @@
 }
 .sar .text-and-photo1{
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 32px;
 }
 .sar .text1-div{
@@ -78,6 +78,11 @@
 .sar .swiper-slide-img {
     width: auto;
     height: 245px;
+}
+.sar .swiper-and-arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 @media screen and (min-width: 1024px) {
